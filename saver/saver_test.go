@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/pmenglund/gcp-folders/tree"
+	"github.com/luismsousa/folder-lookup/tree"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -40,7 +40,7 @@ func (f *fakeBQ) current(ctx context.Context, dataset, table string) (map[string
 		"1": tree.Folder{ID: "1", Name: "keep", Level: 1, Parent: "0"},
 		"2": tree.Folder{ID: "2", Name: "delete", Level: 1, Parent: "0"},
 		"4": tree.Folder{ID: "4", Name: "old name", Level: 1, Parent: "0"},
-		}
+	}
 	return cur, nil
 }
 

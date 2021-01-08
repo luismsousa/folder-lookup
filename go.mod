@@ -1,4 +1,4 @@
-module github.com/pmenglund/gcp-folders
+module github.com/luismsousa/folder-lookup
 
 go 1.12
 

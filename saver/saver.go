@@ -6,8 +6,8 @@ import (
 	"log"
 
 	"cloud.google.com/go/bigquery"
+	"github.com/luismsousa/folder-lookup/tree"
 	"github.com/pkg/errors"
-	"github.com/pmenglund/gcp-folders/tree"
 	"google.golang.org/api/iterator"
 )
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/luismsousa/folder-lookup/tree"
 	"github.com/pkg/errors"
-	"github.com/pmenglund/gcp-folders/tree"
 	"golang.org/x/oauth2/google"
 	crm "google.golang.org/api/cloudresourcemanager/v2beta1"
 )
